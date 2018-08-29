@@ -12,6 +12,11 @@ html, body{
 	
 }
 
+body {
+	background-image: url("unknown-4.jpeg");
+	background-repeat: no-repeat;
+}
+
 h1{
     	font-size: 5rem;
     	color: #5E2BFF;
@@ -41,7 +46,6 @@ p{
 .content{
       	width: 100%;
       	padding: 0;
-	background-image: url("unknown-4.jpeg");
 } 
 
 .bottom{
