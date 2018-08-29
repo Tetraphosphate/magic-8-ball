@@ -16,6 +16,7 @@ body {
 	background-image: url("unknown-4.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 h1{
