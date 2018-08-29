@@ -4,6 +4,17 @@
 	<!-- insert css and maybe js file here with also a link to a favicon -->
 </head>
 
+	
+<style>
+	.arrow-up {
+		width: 0; 
+		height: 0; 
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+  
+		border-bottom: 5px solid black;
+	}
+</style>
 
 <body>
 	<div class="content">
@@ -12,16 +23,15 @@
 		<div id="result"></div>
 		<p>Made by Tetraphosphate and Phosphorescent-Vulpes</p>
 	</div>
+	<div class="arrow-up"></div>
 </body>
 
 
 <script>
 	var results = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes - definitely.", "You may rely on it.", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
 	function generate() {
-		var length = results.length;
-		var response = results[Math.floor(Math.random() * results.length)];
-		document.getElementById("result").innerHTML = response;
-		console.log(result);
+		document.getElementById("result").innerHTML = results[Math.floor(Math.random() * results.length)];
+		// pick a random result from results[] and print it into the results div
 	}
 </script>
 </html>
