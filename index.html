@@ -8,7 +8,7 @@
 <body>
 	<div class="content">
 	    <h1>Magic 8 ball!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h1>
-	    <button onclick="go()">Generate!</button>
+	    <button onclick="generate()">Generate!</button>
 		<div id="result"></div>
 	</div>
 </body>
@@ -16,10 +16,11 @@
 
 <script>
 	var results = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes - definitely.", "You may rely on it.", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
-	function go() {
+	function generate() {
 		var length = results.length;
 		var response = results[Math.floor(Math.random() * results.length)];
 		document.getElementById("result").innerHTML = response;
 		console.log(result);
 	}
+</script>
 </html>
