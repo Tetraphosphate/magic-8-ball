@@ -25,7 +25,7 @@ p{
 }
 
 .result{
-    	font-size: 3rem
+    	font-size: 3rem;
     	color: #5E2BFF;
     	font-family:'Kanit'; 
     	text-align: center;
@@ -42,7 +42,7 @@ p{
 
 .title{
       	width: 100%;
-      	length: 100px;
+      	height: 100px;
       	padding-left: 40px;
       	padding-right: 40px;
 }
@@ -58,7 +58,7 @@ p{
 .bottom{
 	bottom: 0px;
 	position: fixed;
-	length: 40px;
+	height: 40px;
 	width: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
