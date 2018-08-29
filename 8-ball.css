@@ -1,43 +1,66 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:600i');
 
 *{ 
-    margin: auto;
-    padding: 0;
-    background-image: "unknown-4.jpeg";
-    font-size: 10px;
-    }
+    	margin: auto;
+    	padding: 0;
+    	background-image: "unknown-4.jpeg";
+    	font-size: 10px;
+}
 
 html{
-    overflow-x: hidden;
-    }
+    	overflow-x: hidden;
+}
 
 h1{
-    font-size: 5rem;
-    color: #5E2BFF;
-    font-family:'Kanit';
-    text-align: center;
-    }
+    	font-size: 5rem;
+    	color: #5E2BFF;
+    	font-family:'Kanit';
+    	text-align: center;
+}
 
-h2{
-    font-size: 3rem
-    color: #5E2BFF;
-    font-family:'Kanit'; 
-    text-align: center;
-  }
+p{
+	font-size: 2rem;
+	colour: #A1A6B4;
+	font-family: 'Kanit';
+}
+
+.result{
+    	font-size: 3rem
+    	color: #5E2BFF;
+    	font-family:'Kanit'; 
+    	text-align: center;
+}
+
 
 .arrow-up{
 	width: 0; 
 	height: 0; 
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-        border-bottom: 50px solid black;
-	}
+	border-bottom: 50px solid black;
+}
 
 .title{
-      width: 100%;
-      length: 100px;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
+      	width: 100%;
+      	length: 100px;
+      	padding-left: 40px;
+      	padding-right: 40px;
+}
 	
+.content{
+      	width: 100%;
+      	padding-left: 40px;
+      	padding-right: 40px;
+      	padding-top: 20px;
+      	padding-bottom 20px;
+} 
 
+.bottom{
+	bottom: 0px;
+	position: fixed;
+	length: 40px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FDFFFF;
+}
