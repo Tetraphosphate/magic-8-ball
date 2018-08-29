@@ -13,14 +13,14 @@ html{
 
 h1{
     font-size: 5rem;
-    font-color: #5E2BFF;
+    color: #5E2BFF;
     font-family:'Kanit';
     text-align: center;
     }
 
 h2{
     font-size: 3rem
-    font-color: #5E2BFF;
+    color: #5E2BFF;
     font-family:'Kanit'; 
     text-align: center;
   }
@@ -36,8 +36,8 @@ h2{
 .title{
       width: 100%;
       length: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
 	
 
